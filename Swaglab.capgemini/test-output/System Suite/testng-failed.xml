@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [System Suite]">
+  <test thread-count="5" name="System(failed)">
+    <groups>
+      <run>
+        <include name="System"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="PRODUCT.ProductScriptTest">
+        <methods>
+          <include name="AM"/>
+          <include name="BM"/>
+          <include name="SortHighToLowTest"/>
+        </methods>
+      </class> <!-- PRODUCT.ProductScriptTest -->
+      <class name="CHECKOUT.CheckoutTest">
+        <methods>
+          <include name="AM"/>
+          <include name="BM"/>
+          <include name="checkoutSystemTest"/>
+        </methods>
+      </class> <!-- CHECKOUT.CheckoutTest -->
+    </classes>
+  </test> <!-- System(failed) -->
+</suite> <!-- Failed suite [System Suite] -->

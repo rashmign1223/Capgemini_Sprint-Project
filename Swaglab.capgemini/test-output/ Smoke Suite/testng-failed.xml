@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ Smoke Suite]">
+  <test thread-count="5" name="Smoke tests(failed)">
+    <classes>
+      <class name="LOGIN.logintest">
+        <methods>
+          <include name="AM"/>
+          <include name="loginPositiveTest"/>
+          <include name="BM"/>
+        </methods>
+      </class> <!-- LOGIN.logintest -->
+      <class name="PRODUCT.ProductScriptTest">
+        <methods>
+          <include name="SortLowToHighTest"/>
+          <include name="AM"/>
+          <include name="SortZtoAtest"/>
+          <include name="BM"/>
+          <include name="SortAtoZtest"/>
+          <include name="SortHighToLowTest"/>
+        </methods>
+      </class> <!-- PRODUCT.ProductScriptTest -->
+      <class name="CHECKOUT.CheckoutTest">
+        <methods>
+          <include name="AM"/>
+          <include name="BM"/>
+          <include name="checkoutIntegrationTest"/>
+          <include name="checkoutSystemTest"/>
+          <include name="checkoutFunctionalTest"/>
+          <include name="checkoutSmokeTest"/>
+        </methods>
+      </class> <!-- CHECKOUT.CheckoutTest -->
+      <class name="CartTest.CartTest">
+        <methods>
+          <include name="AM"/>
+          <include name="cartIntegrationTest"/>
+          <include name="cartSystemTest"/>
+          <include name="cartFunctionalTest"/>
+          <include name="cartSmokeTest"/>
+          <include name="BM"/>
+        </methods>
+      </class> <!-- CartTest.CartTest -->
+      <class name="EcomNegativeScripts.checkoutTestScripts">
+        <methods>
+          <include name="AM"/>
+          <include name="emptyCheckoutDetailsTest"/>
+          <include name="emptyFirstNameTest"/>
+          <include name="BM"/>
+          <include name="emptyLastNameTest"/>
+          <include name="checkoutPageSmokeTest"/>
+          <include name="emptyPostalCodeTest"/>
+          <include name="checkoutSystemNegativeTest"/>
+        </methods>
+      </class> <!-- EcomNegativeScripts.checkoutTestScripts -->
+      <class name="EcomNegativeScripts.LogintestScripts">
+        <methods>
+          <include name="AM"/>
+          <include name="lockedOutUserTest"/>
+          <include name="invalidLoginTest"/>
+          <include name="BM"/>
+          <include name="loginErrorIntegrationTest"/>
+          <include name="lockedOutSystemTest"/>
+        </methods>
+      </class> <!-- EcomNegativeScripts.LogintestScripts -->
+    </classes>
+  </test> <!-- Smoke tests(failed) -->
+</suite> <!-- Failed suite [ Smoke Suite] -->

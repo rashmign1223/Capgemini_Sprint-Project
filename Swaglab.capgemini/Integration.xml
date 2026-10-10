@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test name = "Integration tests">
+  <parameter name="browser" value="chrome"/>
+
+  
+  <groups>
+   <run>
+   <include name = "Integration"/>
+   </run>
+  </groups>
+    <classes>
+      <class name="CHECKOUT.CheckoutTest"/>
+      <class name="PRODUCT.ProductScriptTest"/>
+      <class name="EcomNegativeScripts.checkoutTestScripts"/>
+      <class name="EcomNegativeScripts.LogintestScripts"/>
+      <class name="CartTest.CartTest"/>
+      <class name="LOGIN.logintest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

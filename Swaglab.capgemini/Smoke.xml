@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+<test name = "Smoke tests">
+<groups>
+<run>
+    <inlcude name = "Smoke"/>
+  
+</run>
+</groups>
+    <classes>
+      <class name="CHECKOUT.CheckoutTest"/>
+      <class name="CART.CartPageTest"/>
+      <class name="PRODUCT.ProductScriptTest"/>
+      <class name="EcomNegativeScripts.checkoutTestScripts"/>
+      <class name="EcomNegativeScripts.LogintestScripts"/>
+      <class name="LOGIN.logintest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

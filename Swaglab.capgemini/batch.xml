@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+    <class name="LOGIN.logintest"/>
+     <class name="PRODUCT.ProductScriptTest"/>
+      <class name="CartTest.CartTest"/>
+      <class name="CHECKOUT.CheckoutTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

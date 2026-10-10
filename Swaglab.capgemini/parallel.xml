@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="classes" thread-count="2">
+
+
+<test name="Login">
+     <parameter name="browser" value="chrome"/>
+
+    <classes>
+        <class name="LOGIN.logintest"/>
+    </classes>
+</test>
+    
+ <test name="PRODUCT">
+     <parameter name="browser" value="chrome"/>
+
+    <classes>
+        <class name="PRODUCT.ProductScriptTest"/>
+    </classes>
+</test>
+<test name="CART">
+     <parameter name="browser" value="chrome"/>
+
+    <classes>
+        <class name="CART.CartPageTest"/>
+    </classes>
+</test>
+<test name="CHECKOUT">
+     <parameter name="browser" value="chrome"/>
+
+    <classes>
+        <class name="CHECKOUT.CheckoutTest"/>
+    </classes>
+</test>
+
+</suite>

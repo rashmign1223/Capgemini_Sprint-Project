@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\rashm\eclipse-workspace\Swaglab.capgemini\crossBrowser.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>5 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">26 methods,   26 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="CART.CartPageTest" class="method navigator-link" hash-for-method="cartFunctionalTest">cartFunctionalTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="CART.CartPageTest" class="method navigator-link" hash-for-method="cartFunctionalTest">cartFunctionalTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="CART.CartPageTest" class="method navigator-link" hash-for-method="cartIntegrationTest">cartIntegrationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="CART.CartPageTest" class="method navigator-link" hash-for-method="cartIntegrationTest">cartIntegrationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="CART.CartPageTest" class="method navigator-link" hash-for-method="cartSmokeTest">cartSmokeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="CART.CartPageTest" class="method navigator-link" hash-for-method="cartSmokeTest">cartSmokeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="CART.CartPageTest" class="method navigator-link" hash-for-method="cartSystemTest">cartSystemTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="CART.CartPageTest" class="method navigator-link" hash-for-method="cartSystemTest">cartSystemTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="CHECKOUT.CheckoutTest" class="method navigator-link" hash-for-method="checkoutFunctionalTest">checkoutFunctionalTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="CHECKOUT.CheckoutTest" class="method navigator-link" hash-for-method="checkoutFunctionalTest">checkoutFunctionalTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="CHECKOUT.CheckoutTest" class="method navigator-link" hash-for-method="checkoutIntegrationTest">checkoutIntegrationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="CHECKOUT.CheckoutTest" class="method navigator-link" hash-for-method="checkoutIntegrationTest">checkoutIntegrationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="CHECKOUT.CheckoutTest" class="method navigator-link" hash-for-method="checkoutSmokeTest">checkoutSmokeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="CHECKOUT.CheckoutTest" class="method navigator-link" hash-for-method="checkoutSmokeTest">checkoutSmokeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="CHECKOUT.CheckoutTest" class="method navigator-link" hash-for-method="checkoutSystemTest">checkoutSystemTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="CHECKOUT.CheckoutTest" class="method navigator-link" hash-for-method="checkoutSystemTest">checkoutSystemTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="LOGIN.logintest" class="method navigator-link" hash-for-method="loginPositiveTest">loginPositiveTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="LOGIN.logintest" class="method navigator-link" hash-for-method="loginPositiveTest">loginPositiveTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="PRODUCT.ProductScriptTest" class="method navigator-link" hash-for-method="verifyCatalogToProductDetails">verifyCatalogToProductDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="PRODUCT.ProductScriptTest" class="method navigator-link" hash-for-method="verifyCatalogToProductDetails">verifyCatalogToProductDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="PRODUCT.ProductScriptTest" class="method navigator-link" hash-for-method="verifyCompleteCatalogBrowsingJourney">verifyCompleteCatalogBrowsingJourney</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="PRODUCT.ProductScriptTest" class="method navigator-link" hash-for-method="verifyCompleteCatalogBrowsingJourney">verifyCompleteCatalogBrowsingJourney</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="PRODUCT.ProductScriptTest" class="method navigator-link" hash-for-method="verifyInventoryCatalogLoads">verifyInventoryCatalogLoads</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="PRODUCT.ProductScriptTest" class="method navigator-link" hash-for-method="verifyInventoryCatalogLoads">verifyInventoryCatalogLoads</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="PRODUCT.ProductScriptTest" class="method navigator-link" hash-for-method="verifySortingByNameAToZ">verifySortingByNameAToZ</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="PRODUCT.ProductScriptTest" class="method navigator-link" hash-for-method="verifySortingByNameAToZ">verifySortingByNameAToZ</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">LOGIN.logintest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPositiveTest">
+                  </a> <!-- loginPositiveTest -->
+                  <span class="method-name">loginPositiveTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPositiveTest">
+                  </a> <!-- loginPositiveTest -->
+                  <span class="method-name">loginPositiveTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CHECKOUT.CheckoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutFunctionalTest">
+                  </a> <!-- checkoutFunctionalTest -->
+                  <span class="method-name">checkoutFunctionalTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutFunctionalTest">
+                  </a> <!-- checkoutFunctionalTest -->
+                  <span class="method-name">checkoutFunctionalTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutIntegrationTest">
+                  </a> <!-- checkoutIntegrationTest -->
+                  <span class="method-name">checkoutIntegrationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutIntegrationTest">
+                  </a> <!-- checkoutIntegrationTest -->
+                  <span class="method-name">checkoutIntegrationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutSmokeTest">
+                  </a> <!-- checkoutSmokeTest -->
+                  <span class="method-name">checkoutSmokeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutSmokeTest">
+                  </a> <!-- checkoutSmokeTest -->
+                  <span class="method-name">checkoutSmokeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutSystemTest">
+                  </a> <!-- checkoutSystemTest -->
+                  <span class="method-name">checkoutSystemTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutSystemTest">
+                  </a> <!-- checkoutSystemTest -->
+                  <span class="method-name">checkoutSystemTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CART.CartPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cartFunctionalTest">
+                  </a> <!-- cartFunctionalTest -->
+                  <span class="method-name">cartFunctionalTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cartFunctionalTest">
+                  </a> <!-- cartFunctionalTest -->
+                  <span class="method-name">cartFunctionalTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cartIntegrationTest">
+                  </a> <!-- cartIntegrationTest -->
+                  <span class="method-name">cartIntegrationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cartIntegrationTest">
+                  </a> <!-- cartIntegrationTest -->
+                  <span class="method-name">cartIntegrationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cartSmokeTest">
+                  </a> <!-- cartSmokeTest -->
+                  <span class="method-name">cartSmokeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cartSmokeTest">
+                  </a> <!-- cartSmokeTest -->
+                  <span class="method-name">cartSmokeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cartSystemTest">
+                  </a> <!-- cartSystemTest -->
+                  <span class="method-name">cartSystemTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cartSystemTest">
+                  </a> <!-- cartSystemTest -->
+                  <span class="method-name">cartSystemTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">PRODUCT.ProductScriptTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCatalogToProductDetails">
+                  </a> <!-- verifyCatalogToProductDetails -->
+                  <span class="method-name">verifyCatalogToProductDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCatalogToProductDetails">
+                  </a> <!-- verifyCatalogToProductDetails -->
+                  <span class="method-name">verifyCatalogToProductDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCompleteCatalogBrowsingJourney">
+                  </a> <!-- verifyCompleteCatalogBrowsingJourney -->
+                  <span class="method-name">verifyCompleteCatalogBrowsingJourney</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCompleteCatalogBrowsingJourney">
+                  </a> <!-- verifyCompleteCatalogBrowsingJourney -->
+                  <span class="method-name">verifyCompleteCatalogBrowsingJourney</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInventoryCatalogLoads">
+                  </a> <!-- verifyInventoryCatalogLoads -->
+                  <span class="method-name">verifyInventoryCatalogLoads</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInventoryCatalogLoads">
+                  </a> <!-- verifyInventoryCatalogLoads -->
+                  <span class="method-name">verifyInventoryCatalogLoads</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySortingByNameAToZ">
+                  </a> <!-- verifySortingByNameAToZ -->
+                  <span class="method-name">verifySortingByNameAToZ</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySortingByNameAToZ">
+                  </a> <!-- verifySortingByNameAToZ -->
+                  <span class="method-name">verifySortingByNameAToZ</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\rashm\eclipse-workspace\Swaglab.capgemini\crossBrowser.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Chrome Tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;CHECKOUT.CheckoutTest&quot;/&gt;
+      &lt;class name=&quot;PRODUCT.ProductScriptTest&quot;/&gt;
+      &lt;class name=&quot;CART.CartPageTest&quot;/&gt;
+      &lt;class name=&quot;LOGIN.logintest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Firefox Tests&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;CHECKOUT.CheckoutTest&quot;/&gt;
+      &lt;class name=&quot;PRODUCT.ProductScriptTest&quot;/&gt;
+      &lt;class name=&quot;CART.CartPageTest&quot;/&gt;
+      &lt;class name=&quot;LOGIN.logintest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Firefox Tests --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Chrome Tests (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Firefox Tests (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Integration</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">cartIntegrationTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkoutIntegrationTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCatalogToProductDetails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">cartSmokeTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkoutSmokeTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyInventoryCatalogLoads</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">System</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">cartSystemTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkoutSystemTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCompleteCatalogBrowsingJourney</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">functional</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">cartFunctionalTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkoutFunctionalTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifySortingByNameAToZ</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginPositiveTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(26);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'cartFunctionalTest')
+data.setCell(0, 2, 'CART.CartPageTest')
+data.setCell(0, 3, 21327);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'cartFunctionalTest')
+data.setCell(1, 2, 'CART.CartPageTest')
+data.setCell(1, 3, 20703);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyCompleteCatalogBrowsingJourney')
+data.setCell(2, 2, 'PRODUCT.ProductScriptTest')
+data.setCell(2, 3, 9110);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyCompleteCatalogBrowsingJourney')
+data.setCell(3, 2, 'PRODUCT.ProductScriptTest')
+data.setCell(3, 3, 7849);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyCatalogToProductDetails')
+data.setCell(4, 2, 'PRODUCT.ProductScriptTest')
+data.setCell(4, 3, 5252);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifySortingByNameAToZ')
+data.setCell(5, 2, 'PRODUCT.ProductScriptTest')
+data.setCell(5, 3, 4761);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyCatalogToProductDetails')
+data.setCell(6, 2, 'PRODUCT.ProductScriptTest')
+data.setCell(6, 3, 4409);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyInventoryCatalogLoads')
+data.setCell(7, 2, 'PRODUCT.ProductScriptTest')
+data.setCell(7, 3, 4062);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifySortingByNameAToZ')
+data.setCell(8, 2, 'PRODUCT.ProductScriptTest')
+data.setCell(8, 3, 3992);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyInventoryCatalogLoads')
+data.setCell(9, 2, 'PRODUCT.ProductScriptTest')
+data.setCell(9, 3, 3524);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkoutSystemTest')
+data.setCell(10, 2, 'CHECKOUT.CheckoutTest')
+data.setCell(10, 3, 2934);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'checkoutFunctionalTest')
+data.setCell(11, 2, 'CHECKOUT.CheckoutTest')
+data.setCell(11, 3, 2808);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'checkoutSystemTest')
+data.setCell(12, 2, 'CHECKOUT.CheckoutTest')
+data.setCell(12, 3, 2521);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'checkoutFunctionalTest')
+data.setCell(13, 2, 'CHECKOUT.CheckoutTest')
+data.setCell(13, 3, 2241);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'cartSystemTest')
+data.setCell(14, 2, 'CART.CartPageTest')
+data.setCell(14, 3, 2207);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'checkoutIntegrationTest')
+data.setCell(15, 2, 'CHECKOUT.CheckoutTest')
+data.setCell(15, 3, 1608);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'cartIntegrationTest')
+data.setCell(16, 2, 'CART.CartPageTest')
+data.setCell(16, 3, 1545);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'cartSystemTest')
+data.setCell(17, 2, 'CART.CartPageTest')
+data.setCell(17, 3, 1254);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'cartSmokeTest')
+data.setCell(18, 2, 'CART.CartPageTest')
+data.setCell(18, 3, 1216);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'checkoutSmokeTest')
+data.setCell(19, 2, 'CHECKOUT.CheckoutTest')
+data.setCell(19, 3, 1105);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'cartSmokeTest')
+data.setCell(20, 2, 'CART.CartPageTest')
+data.setCell(20, 3, 1032);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'checkoutIntegrationTest')
+data.setCell(21, 2, 'CHECKOUT.CheckoutTest')
+data.setCell(21, 3, 1010);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'cartIntegrationTest')
+data.setCell(22, 2, 'CART.CartPageTest')
+data.setCell(22, 3, 961);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'checkoutSmokeTest')
+data.setCell(23, 2, 'CHECKOUT.CheckoutTest')
+data.setCell(23, 3, 687);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'loginPositiveTest')
+data.setCell(24, 2, 'LOGIN.logintest')
+data.setCell(24, 3, 633);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'loginPositiveTest')
+data.setCell(25, 2, 'LOGIN.logintest')
+data.setCell(25, 3, 465);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">CHECKOUT.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BM(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">BM(firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutFunctionalTest</span>
+                <span class="method-start">3552 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AM</span>
+                <span class="method-start">6371 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BM(chrome)</span>
+                <span class="method-start">6614 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutIntegrationTest</span>
+                <span class="method-start">9323 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AM</span>
+                <span class="method-start">10937 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkoutFunctionalTest</span>
+                <span class="method-start">10941 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BM(chrome)</span>
+                <span class="method-start">11303 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">AM</span>
+                <span class="method-start">13190 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkoutSmokeTest</span>
+                <span class="method-start">14761 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BM(firefox)</span>
+                <span class="method-start">15006 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">AM</span>
+                <span class="method-start">15448 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BM(chrome)</span>
+                <span class="method-start">15710 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutSystemTest</span>
+                <span class="method-start">18597 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AM</span>
+                <span class="method-start">21119 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PRODUCT.ProductScriptTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BM(chrome)</span>
+                <span class="method-start">22198 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CHECKOUT.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkoutIntegrationTest</span>
+                <span class="method-start">25935 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AM</span>
+                <span class="method-start">26947 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PRODUCT.ProductScriptTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyCatalogToProductDetails</span>
+                <span class="method-start">27562 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CHECKOUT.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BM(firefox)</span>
+                <span class="method-start">28377 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PRODUCT.ProductScriptTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">AM</span>
+                <span class="method-start">31971 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BM(chrome)</span>
+                <span class="method-start">32487 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCompleteCatalogBrowsingJourney</span>
+                <span class="method-start">35850 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CHECKOUT.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkoutSmokeTest</span>
+                <span class="method-start">37459 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AM</span>
+                <span class="method-start">38564 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BM(firefox)</span>
+                <span class="method-start">40011 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PRODUCT.ProductScriptTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">AM</span>
+                <span class="method-start">44963 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BM(chrome)</span>
+                <span class="method-start">45449 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyInventoryCatalogLoads</span>
+                <span class="method-start">50039 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CHECKOUT.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkoutSystemTest</span>
+                <span class="method-start">51540 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PRODUCT.ProductScriptTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">AM</span>
+                <span class="method-start">53565 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BM(chrome)</span>
+                <span class="method-start">53997 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CHECKOUT.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">AM</span>
+                <span class="method-start">54478 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PRODUCT.ProductScriptTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BM(firefox)</span>
+                <span class="method-start">56902 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySortingByNameAToZ</span>
+                <span class="method-start">57175 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AM</span>
+                <span class="method-start">61938 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CART.CartPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BM(chrome)</span>
+                <span class="method-start">63032 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cartFunctionalTest</span>
+                <span class="method-start">66178 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PRODUCT.ProductScriptTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyCatalogToProductDetails</span>
+                <span class="method-start">66511 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AM</span>
+                <span class="method-start">71772 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BM(firefox)</span>
+                <span class="method-start">73673 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCompleteCatalogBrowsingJourney</span>
+                <span class="method-start">81355 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CART.CartPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">AM</span>
+                <span class="method-start">87511 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BM(chrome)</span>
+                <span class="method-start">87813 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PRODUCT.ProductScriptTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">AM</span>
+                <span class="method-start">89205 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BM(firefox)</span>
+                <span class="method-start">91142 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CART.CartPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">cartIntegrationTest</span>
+                <span class="method-start">91890 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AM</span>
+                <span class="method-start">93437 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BM(chrome)</span>
+                <span class="method-start">94091 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cartSmokeTest</span>
+                <span class="method-start">97900 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AM</span>
+                <span class="method-start">99119 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BM(chrome)</span>
+                <span class="method-start">99717 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cartSystemTest</span>
+                <span class="method-start">102970 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PRODUCT.ProductScriptTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyInventoryCatalogLoads</span>
+                <span class="method-start">104656 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CART.CartPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">AM</span>
+                <span class="method-start">105179 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">LOGIN.logintest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BM(chrome)</span>
+                <span class="method-start">105444 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPositiveTest</span>
+                <span class="method-start">108599 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PRODUCT.ProductScriptTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">AM</span>
+                <span class="method-start">108719 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">LOGIN.logintest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">AM</span>
+                <span class="method-start">109069 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">PRODUCT.ProductScriptTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BM(firefox)</span>
+                <span class="method-start">110554 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySortingByNameAToZ</span>
+                <span class="method-start">117907 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AM</span>
+                <span class="method-start">121901 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CART.CartPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BM(firefox)</span>
+                <span class="method-start">122844 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cartFunctionalTest</span>
+                <span class="method-start">132128 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AM</span>
+                <span class="method-start">152833 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BM(firefox)</span>
+                <span class="method-start">153601 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cartIntegrationTest</span>
+                <span class="method-start">161628 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AM</span>
+                <span class="method-start">162589 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BM(firefox)</span>
+                <span class="method-start">164040 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cartSmokeTest</span>
+                <span class="method-start">173361 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AM</span>
+                <span class="method-start">174395 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BM(firefox)</span>
+                <span class="method-start">175240 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cartSystemTest</span>
+                <span class="method-start">187338 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AM</span>
+                <span class="method-start">188592 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">LOGIN.logintest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">BM(firefox)</span>
+                <span class="method-start">190015 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginPositiveTest</span>
+                <span class="method-start">198470 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AM</span>
+                <span class="method-start">199105 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
