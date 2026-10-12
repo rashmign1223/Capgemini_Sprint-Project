@@ -14,7 +14,7 @@
       <class name="PRODUCT.ProductScriptTest"/>
       <class name="EcomNegativeScripts.checkoutTestScripts"/>
       <class name="EcomNegativeScripts.LogintestScripts"/>
-      <class name="CartTest.CartPageTest"/>
+      <class name="CART.CartPageTest"/>
       <class name="LOGIN.logintest"/>
     </classes>
   </test> <!-- Test -->
